@@ -1,1 +1,31 @@
 
+<table class="table table-striped mt-3">
+    <thead class="entete align-middle">
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Modèle</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Impact carbone (Co2)</th>
+        <th scope="col">Impact environnemental</th>
+      </tr>
+    </thead>
+    <tbody class="col-6 align-self-center">
+      <tr *ngFor="let phone of phones">
+        <td>
+          <img src="{{phone.picture}}">
+        </td>
+        <td>
+            {{phone.modele}}
+        </td>
+        <td>
+            {{phone.prix}}
+        </td>
+        <td>
+            {{phone.impact_carbone}}
+        </td>
+        <td>
+          <img class="energie" src="{{phone.classe_energetique}}">
+        </td>
+      </tr>
+    </tbody>
+  </table>

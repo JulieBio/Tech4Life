@@ -34,6 +34,7 @@
     font-weight: bolder;
     font-size: 1em;
     border-radius: 15px;
+    color: white;
 }
 
 .first {
@@ -46,4 +47,8 @@
 
 .third {
     background-color: #EB692C;
+}
+
+.tipLink {
+    text-align: center;
 }

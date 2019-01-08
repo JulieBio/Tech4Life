@@ -1,0 +1,24 @@
+.entete{
+    font-size: 0.7em;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+.energie{
+    width: 35px;
+    height: 35px;
+}
+
+td{
+    font-size:0.8em;
+    margin: 0px;
+    padding:4px;
+}
+
+.table-striped {
+    margin:0px;
+}
+
